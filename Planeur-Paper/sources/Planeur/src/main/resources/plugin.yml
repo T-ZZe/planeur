@@ -1,0 +1,14 @@
+name: Planeur
+version: 1.0
+main: fr.planeur.PlaneurPlugin
+api-version: "26.3"
+commands:
+  planeur:
+    description: Donne le planeur (admin)
+    usage: /planeur give [joueur]
+    permission: planeur.admin
+    permission-message: "§cCette commande est réservée aux opérateurs."
+permissions:
+  planeur.admin:
+    description: Donner le planeur
+    default: op
